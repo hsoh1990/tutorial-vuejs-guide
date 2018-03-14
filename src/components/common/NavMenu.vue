@@ -12,6 +12,9 @@
       <router-link to="/computed-and-watch-layout" class="bar-item">
         <p>계산된 속성과 감시자</p>
       </router-link>
+    <router-link to="/class-and-bind-layout" class="bar-item">
+      <p>클래스와 스타일 바인딩</p>
+    </router-link>
   </nav>
 </template>
 
