@@ -4,6 +4,7 @@ import index from '@/components/index';
 import SingleFileComponent from '@/components/component/SingleFileComponent';
 import TemplateLayout from '@/components/template/TemplateLayout';
 import ComputedAndWatchLayout from '@/components/computed-and-watch/ComputedAndWatchLayout';
+import ClassAndBindLayout from '@/components/class-and-bind/ClassAndBindLayout';
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/computed-and-watch-layout',
       name: 'computed-and-watch-layout',
       component: ComputedAndWatchLayout
+    },
+    {
+      path: '/class-and-bind-layout',
+      name: 'class-and-bind-layout',
+      component: ClassAndBindLayout
     }
   ]
 });
