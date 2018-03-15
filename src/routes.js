@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+
 import index from '@/components/index';
 import SingleFileComponent from '@/components/component/SingleFileComponent';
 import TemplateLayout from '@/components/template/TemplateLayout';
