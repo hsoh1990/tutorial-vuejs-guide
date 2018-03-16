@@ -8,6 +8,7 @@ import ComputedAndWatchLayout from '@/components/computed-and-watch/ComputedAndW
 import ClassAndBindLayout from '@/components/class-and-bind/ClassAndBindLayout';
 import ClassLayout from '@/components/class-and-bind/ClassLayout';
 import BindLayout from '@/components/class-and-bind/BindLayout';
+import ConditionalRenderingLayout from '@/components/ConditionalRendering/ConditionalRenderingLayout';
 
 Vue.use(Router);
 
@@ -47,6 +48,11 @@ export default new Router({
           component: BindLayout
         }
       ]
+    },
+    {
+      path: '/conditional-rendering-layout',
+      name: 'conditional-rendering-layout',
+      component: ConditionalRenderingLayout
     }
   ]
 });
